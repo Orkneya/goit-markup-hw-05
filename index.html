@@ -370,9 +370,23 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-send">
+                <p class="footer-scribe-title">Subscribe</p>
+                <form class="footer-form">
+                    <input type="email" name="footer-email"
+                    id="footer-email"" class="footer-email-input"/>
+                    <button type="submit" class="footer-btn">
+                        Subscribe
+                        <svg width="24" height="20" class="footer-send-icon">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
          </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop" >
+    <!-- is-open -->
         <div class="modal">
         <button type="button" class="modal-btm">
             <svg class="modal-btm-close" height="8" width="8">
@@ -429,38 +443,13 @@
                 class="modal-check visually-hidden"
                 value="true"/>
                 <label for="user-privacy" class="modal-check-tekst">
-                    <span>
+                    <span class="modal-check-tekst-span">
                         <svg class="modal-check-icon" width="10" height="8">
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
                     </span> I accept the terms and conditions of the 
                     <a class="modal-check-send"> Privacy Policy</a></label>
            </div>
-           <!-- icon-checkicon-check -->
-             <!--<div class="modal-fields">
-                <fieldset>
-                    <legend>
-                        Questions
-                    </legend>
-                  <label for="yes">Yes</label>
-                  <input type="radio" id="yes" class="" name="questions" value="yes"/>
-                  <label for="no">No</label>
-                  <input type="radio" id="no" name="questions" value="no">
-                </fieldset>
-            </div>
-            <div class="modal-fields">
-                <fieldset>
-                    <legend>
-                        Options
-                    </legend>
-                  <label for="one">One</label>
-                  <input type="checkbox" id="one" class="" name="questions" value="one"/>
-                  <label for="two">Two</label>
-                  <input type="checkbox" id="two" name="questions" value="two">
-                  <label for="three">Three</label>
-                  <input type="checkbox" id="three" name="questions" value="three">
-                </fieldset>
-            </div> -->
             <button type="submit" class="modal-button"> Send</button>
         </form>
         </div>
